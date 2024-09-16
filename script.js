@@ -18,24 +18,7 @@ $(".btncarta").click(function(){
 	localStorage.setItem('datos', JSON.stringify(datos));
 	pintarTabla();
 });
-/*
-document.querySelector('.btncarta').addEventListener('click', function() { 
 
-	var datos = localStorage.getItem('datos');
-
-	datos = JSON.parse(datos);
-
-	for(let item of datos) {
-		if(item.numero == this.dataset.carta) {
-			item.cantidad ++;
-		}
-	}
-
-	localStorage.setItem('datos', JSON.stringify(datos));
-	pintarTabla();
-
-});
-*/
 function guardarCarta(){
 
 	var numero = document.querySelector('#numero').value;
