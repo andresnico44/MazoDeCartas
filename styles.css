@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: none;
+}
+
+.card-header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    background: #f9f9f9;
+}
+
+.card-footer {
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+}
+.login_btn {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.login_btn:hover {
+    background-color: #feb47b;
+    color: #333;
+}
+
+.links a {
+    color: #ff7e5f;
+}
+
+.links a:hover {
+    color: #feb47b;
+}
+.social_icon span {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #ff7e5f;
+    cursor: pointer;
+}
+
+.social_icon span:hover {
+    color: #feb47b;
+}
+.remember {
+    color: #333;
+}
+
+.remember input[type="checkbox"] {
+    accent-color: #ff7e5f;
+}
+#alerta {
+    margin-top: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        margin: auto;
+    }
+}
