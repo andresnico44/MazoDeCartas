@@ -58,8 +58,6 @@ function pintarTabla(){
 			</tr>`;
 	}
 }
-
-
 function leerJSON() {
             $.getJSON("", function(datos) {
                 console.log(datos);
