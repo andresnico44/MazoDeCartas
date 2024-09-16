@@ -1,25 +1,99 @@
+/* Estilo del fondo del cuerpo */
 body {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
 }
+
+/* Estilos del header */
+header {
+    background: linear-gradient(90deg, #ff7f50, #1e90ff);
+    padding: 20px;
+    color: white;
+}
+
+.img-logo {
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Estilos de las cartas */
+.img-thumbnail {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.btncarta {
+    margin-bottom: 15px;
+}
+
+/* Estilos de la tabla */
+.table {
+    border: 2px solid #1e90ff;
+}
+
+.table thead {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+}
+
+/* Estilos del formulario */
+form {
+    padding: 20px;
+    border: 2px solid #ff7f50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#registrar {
+    background-color: #ff7f50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#registrar:hover {
+    background-color: #ff4500;
+}
+
+/* Estilo general de layout */
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Estilo de las tarjetas (cards) */
 .card {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border: none;
 }
 
-.card-header {
+.card-header, .card-footer {
     background: #ffffff;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 .card-body {
     background: #f9f9f9;
 }
 
-.card-footer {
-    background: #ffffff;
-    border-top: 1px solid #ddd;
-}
+/* Botón de login */
 .login_btn {
     background-color: #ff7e5f;
     color: white;
@@ -33,6 +107,7 @@ body {
     color: #333;
 }
 
+/* Estilo de enlaces */
 .links a {
     color: #ff7e5f;
 }
@@ -40,6 +115,8 @@ body {
 .links a:hover {
     color: #feb47b;
 }
+
+/* Iconos de redes sociales */
 .social_icon span {
     font-size: 24px;
     margin: 0 10px;
@@ -50,6 +127,8 @@ body {
 .social_icon span:hover {
     color: #feb47b;
 }
+
+/* Checkbox de "Recordar" */
 .remember {
     color: #333;
 }
@@ -57,11 +136,15 @@ body {
 .remember input[type="checkbox"] {
     accent-color: #ff7e5f;
 }
+
+/* Alerta de error */
 #alerta {
     margin-top: 10px;
     background-color: #f8d7da;
     color: #721c24;
 }
+
+/* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
     .card {
         width: 90%;
